@@ -47,6 +47,12 @@ export default function Layout() {
             headerRight: () => <HeaderMenuButton />,
           }}
         />
+        <Stack.Screen
+          name="detail"
+          options={{
+            title: "Detail",
+          }}
+        />
       </Stack>
     </ThemeProvider>
   );
